@@ -1,0 +1,26 @@
+/* ****** hover ******* */
+
+/* hover input pour les boutons */
+input:hover{
+    background: var(--jaune);
+}
+
+/* hover a pour les liens */
+a:hover{
+    color: var(--jaune);
+}
+
+/* hover sur logo FaceBook */
+.logos2>:nth-child(1):hover img{
+    opacity: .5;
+}
+
+/* hover sur logo Twitter */
+.logos2>:nth-child(2):hover img{
+    opacity: .5;
+}
+
+/* hover sur logo Linkedin */
+.logos2>:nth-child(3):hover img{
+    opacity: .5;
+}

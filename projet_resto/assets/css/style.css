@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(../img/planches.jpg); */
+    background-color: rgb(135, 190, 172);
+    margin: 0 10rem 0 10rem;
+}
+
+/* Style header */
+
+header{
+    background-image: url(../img/planches.jpg);
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 4rem;
+}
+
+/* .header1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+} */
+
+.header1{
+    text-align: center;
+}
+
+.header1 h1{
+    font-family: 'Finger Paint', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.header1 .material-symbols-outlined{
+    font-size: 20px;
+    color: rgb(218, 0, 149);
+}
+
+nav a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+nav a:hover{
+    color: rgb(218, 0, 149);
+}
+
+/* Style main */
+
+main{
+    background-image: url(../img/planches.jpg);
+}
+
+/* style "section01 */
+
+.section01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1{
+    width: 300px;
+    /* height: 300px; */
+    padding: 6rem 0 6rem 0;
+}
+
+.section01 i{
+    padding: 12rem 6rem 3rem 6rem;
+}
+
+.section01 .fa-solid{
+    font-size: 100px;
+    color: rgb(218, 0, 149);
+}
+
+/* Style "section02" */
+
+.section02{
+    display: flex;
+}
+
+.section02 .material-symbols-outlined{
+    font-size: 20px;
+    color: rgb(218, 0, 149);
+}
+
+.text1{
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 6rem;
+}
+
+.text1 h2{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text1 h3{
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(218, 0, 149);
+}
+
+.text1 p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+/* Style "section03" */
+
+.section03{
+    display: flex;
+}
+
+.text2{
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.text2 .material-symbols-outlined{
+    font-size: 20px;
+    color: rgb(218, 0, 149);
+}
+
+.text2 h2{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text2 h3{
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(218, 0, 149);
+}
+
+.text2 p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+}
+
+/* Style "section04" */
+
+.section04{
+    display: flex;
+}
+
+.text3{
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.text3 .material-symbols-outlined{
+    font-size: 20px;
+    color: rgb(218, 0, 149);
+}
+
+.text3 h2{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text3 h3{
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(218, 0, 149);
+}
+
+.text3 p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+}
+
+/* Style "footer" */
+
+footer{
+    background-image: url(../img/motif.jpg);
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.text4{
+    /* background-image: url(../img/motif.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem 0 6rem 6rem;
+}
+
+.text4 h1{
+    font-family: 'Finger Paint', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 2rem 2rem 0 0;
+}
+
+.text4 .material-symbols-outlined{
+    font-size: 20px;
+    color: rgb(218, 0, 149);
+    text-align: center;
+    padding: 1rem 2rem 3rem 0;
+}
+
+.text4 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.text4 :nth-child(3), :nth-child(5){
+    padding: 1rem 0 0 0;
+}
+
+.reseau{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 6rem 6rem 3rem 6rem;
+}
+
+.reseau a{
+    padding: 1rem;
+}
+
+.reseau i:hover{
+    color: black;
+}
+
+.reseau .fa-brands{
+    font-size: 23px;
+    color: rgb(218, 0, 149);
+}

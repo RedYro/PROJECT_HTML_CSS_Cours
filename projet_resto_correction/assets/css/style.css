@@ -1,0 +1,274 @@
+/* Feuille de style pour la page "Restaurant Correction" */
+
+/* "Font-Famliy" */
+
+/* font-family: 'Bangers', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+/* :root -> permet de déclarer et stocker des variables (--variable:) */
+
+:root{
+    --font:'Ubuntu', sans-serif;
+    --color: #ec64a9;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #a0c4b6;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+}
+
+header{
+    background-image: url(../img/planches.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6rem 2rem 0 3rem;
+    font-style: italic;
+    /* align-items: baseline; */
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    /* letter-spacing: .3rem; */
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    width: 20rem;
+    height: 20rem;
+    transform: rotateY(180deg);
+}
+
+.title sup{
+    vertical-align: super;
+    font-size: 2rem;
+    margin-left: .8rem;
+}
+
+.title sup::after{
+    content: '_';
+    position: relative;
+    top: 2px;
+    left: -12px;
+    font-size: 2.5rem;
+    /* On applique le "dipslay: inline-block" afin d'appliquer par la suite la rotation */
+    display: inline-block;
+    transform: rotate(-15deg);
+}
+
+hr{
+    height: .6rem;
+    width: 3.2rem;
+    border: solid .1rem #ec64a9;
+    background-color: #ec64a9;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.menu a:hover{
+    color: #ec64a9;
+}
+
+.milieuHeader{
+    position: relative;
+}
+
+.triangle{
+    border-top: 130px solid #db447bc2;
+    border-left: 130px solid transparent;
+    display: inline-block;
+    position: absolute;
+    right: 46px;
+    top: 64px;
+}
+
+header span{
+    font-size: 10rem !important;
+    color: #ec64a9;
+}
+
+main, footer{
+    background-image: url(../img/motif.jpg);   
+}
+
+/* Style for all sections */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    /* height: 500px; */
+}
+
+section img{
+    width: 100%;
+    display: flex;
+}
+
+/* 1st section */
+
+section:first-child div:last-child{
+    width: 60%;
+}
+
+section:first-child img{
+    transform: rotateY(180deg)
+}
+
+section:first-child div:first-child{
+    width: 40%;
+}
+
+/* 2nd section */
+
+section:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+section:nth-child(2) div:last-child{
+    width: 70%;
+}
+
+section:nth-child(2) div:first-child{
+    width: 30%;
+}
+
+/* 3th section */
+
+section:nth-child(3) div:last-child{
+    width: 60%;
+}
+
+section:nth-child(3) div:first-child{
+    width: 40%;
+}
+
+/* div with text */
+
+section>div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+section:nth-child(2)>div div:first-child{
+    background-image: url(../img/graines_01.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+}
+
+section:nth-child(3)>div div:first-child{
+    background-image: url(../img/graines_02.jpg);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 100px;
+    background-size: contain;
+}
+
+h2{
+    font-family: var(--font);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+section p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--color);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Style footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 5rem 4rem;
+}
+
+footer>div:last-child{
+    align-self: flex-end;
+}
+
+footer h2{
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+footer .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    /* justify-content: flex-start; */
+}
+
+footer p{
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer p:not(:last-of-type){
+    margin-bottom: 1.8rem;
+}
+
+footer i{
+    margin-right: .7rem;
+    color: #ec64a9;
+}
+
+footer i:hover{
+    color: black;
+}
