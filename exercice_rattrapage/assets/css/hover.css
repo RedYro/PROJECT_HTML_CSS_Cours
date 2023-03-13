@@ -1,0 +1,34 @@
+/* Style hover section 2 img */
+
+.img1:hover{
+    width: 120%;
+}
+
+.img2:hover{
+    width: 120%;
+}
+
+.img3:hover{ 
+    width: 120%;
+}
+
+.img4:hover{ 
+    width: 120%;
+}
+
+/* Style hover nav a */
+
+.nav a:hover{
+    color: #EB43A3;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Style hover h1 a */
+
+header h1 a:hover{
+    color: #EB43A3;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 5px;
+}
